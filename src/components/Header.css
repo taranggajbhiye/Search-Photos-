@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.header_container{
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+}
+.header_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0.1rem;
+}
+
+.header_search > input{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 20rem;
+    height: 30px;  
+    border: 3px solid skyblue; 
+}
+
+.header_search >input:hover{
+    background:  #f4f4f4;
+    border: 4px solid blue; 
+}
