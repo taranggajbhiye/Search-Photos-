@@ -38,6 +38,7 @@ function HomePage() {
 
           <div className="header_search">
             <input type="text" value={query} onChange={handleSearch}></input>
+            
           </div>
         </div>
       </div>
